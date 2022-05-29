@@ -12,4 +12,4 @@ RUN git clone -q https://github.com/google/googletest.git /googletest \
 
 RUN wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh || true
 
-# RUN "sudo chsh -s $(which zsh)"
+ENV SHELL=/bin/zsh
