@@ -5,7 +5,7 @@
 
 # C++ Project Template
 
-C++ project template with [GCC](https://gcc.gnu.org/), [GDB](https://www.sourceware.org/gdb/) [CMake](https://cmake.org/) and [GoogleTest](https://github.com/google/googletest).
+C++ project template with [GCC](https://gcc.gnu.org/), [GDB](https://www.sourceware.org/gdb/), [CMake](https://cmake.org/) and [GoogleTest](https://github.com/google/googletest).
 
 ## Getting Started
 
