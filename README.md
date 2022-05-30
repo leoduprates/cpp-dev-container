@@ -7,21 +7,19 @@
 
 C++ project template with [GCC](https://gcc.gnu.org/), [GDB](https://www.sourceware.org/gdb/) [CMake](https://cmake.org/) and [GoogleTest](https://github.com/google/googletest).
 
-
 ## Getting Started
 
-1\. Download and install [VSCode](https://code.visualstudio.com/docs/setup/setup-overview).
+1. Download and install [VSCode](https://code.visualstudio.com/docs/setup/setup-overview).
 
-2\. Install and enable the extension [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+2. Install and enable the extension [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 
-3\. Press **Command (Control)** + **Shift** + **P** in keyboard to open VS Code Command Palette.
+3. Press **Command (Control)** + **Shift** + **P** in keyboard to open VS Code Command Palette.
 
-4\. Select the option: **Remote-Container: Reopen in Container**.
+4. Select the option: **Remote-Container: Reopen in Container**.
 
+## Guidelines
 
-## C++ Core Guidelines
-
-https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+This project uses the guidelines from [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines).
 
 ## Links
 
@@ -29,6 +27,6 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 - [Godbolt](https://godbolt.org/) - Compiler Explorer was created by and is primarily administrated by Matt Godbolt.
 - [quick-bench](https://quick-bench.com/) - Quick C++ Benchmarks.
 - [CppCon](https://www.youtube.com/user/CppCon) - CppCon annual conference.
-- [GoogleTest](https://google.github.io/googletest/) - GoogleTest User’s Guide
+- [GoogleTest](https://google.github.io/googletest/) - GoogleTest User’s Guide.
 - [CMake](https://cmake.org/cmake/help/v3.21/guide/tutorial/A%20Basic%20Starting%20Point.html) -  CMake tutorial.
-- [Dockerfile](https://docs.docker.com/engine/reference/builder/) - Dockerfile reference
+- [Dockerfile](https://docs.docker.com/engine/reference/builder/) - Dockerfile reference.
