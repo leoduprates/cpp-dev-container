@@ -3,9 +3,9 @@
 ![GTest](https://img.shields.io/badge/GoogleTest-FF9A00.svg?style=for-the-badge&logo=google&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-# C++ Dev Container
+# C++ Project Template
 
-C++ development container with [GCC](https://gcc.gnu.org/), [CMake](https://cmake.org/) and [GoogleTest](https://github.com/google/googletest).
+C++ project template with [GCC](https://gcc.gnu.org/), [GDB](https://www.sourceware.org/gdb/) [CMake](https://cmake.org/) and [GoogleTest](https://github.com/google/googletest).
 
 
 ## Getting Started
@@ -18,8 +18,17 @@ C++ development container with [GCC](https://gcc.gnu.org/), [CMake](https://cmak
 
 4\. Select the option: **Remote-Container: Reopen in Container**.
 
+
+## C++ Core Guidelines
+
+https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+
 ## Links
 
-- [GoogleTest User’s Guide](https://google.github.io/googletest/)
-- [CMake Tutorial](https://cmake.org/cmake/help/v3.21/guide/tutorial/A%20Basic%20Starting%20Point.html)
-- [Dockerfile](https://docs.docker.com/engine/reference/builder/)
+- [cpp.sh](http://cpp.sh/) - Online C++ compiler.
+- [Godbolt](https://godbolt.org/) - Compiler Explorer was created by and is primarily administrated by Matt Godbolt.
+- [quick-bench](https://quick-bench.com/) - Quick C++ Benchmarks.
+- [CppCon](https://www.youtube.com/user/CppCon) - CppCon annual conference.
+- [GoogleTest](https://google.github.io/googletest/) - GoogleTest User’s Guide
+- [CMake](https://cmake.org/cmake/help/v3.21/guide/tutorial/A%20Basic%20Starting%20Point.html) -  CMake tutorial.
+- [Dockerfile](https://docs.docker.com/engine/reference/builder/) - Dockerfile reference

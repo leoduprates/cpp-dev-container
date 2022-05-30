@@ -2,7 +2,7 @@
 
 FROM alpine:latest
 
-RUN apk add --no-cache -q -f git cmake make g++ zsh
+RUN apk add --no-cache -q -f git cmake make g++ gdb zsh
 
 RUN git clone -q https://github.com/google/googletest.git /googletest \
   && mkdir -p /googletest/build \
