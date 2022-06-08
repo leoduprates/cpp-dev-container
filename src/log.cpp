@@ -1,31 +1,15 @@
-#include "log.h"
-#include "color.h"
+#include "log.hpp"
+#include "format.hpp"
+#include "color.hpp"
 
 #include <iostream>
 #include <ctime>
+#include <chrono>
+#include <string>
+#include <algorithm>
 
-using namespace std;
-
-string Log::getLevel(Level level)
+string Log::getTime()
 {
-    Color color;
-
-    switch (level)
-    {
-    case Log::DEBUG:
-        return color.WHITE + "DEBUG" + color.DEFAULT;
-    case Log::INFO:
-        return color.BLUE + "INFO" + color.DEFAULT;
-    case Log::WAR:
-        return color.YELLOW + "WAR" + color.DEFAULT;
-    case Log::ERROR:
-        return color.RED + "ERROR"  + color.DEFAULT;
-    default:
-        return "";
-    };
-}
-
-string Log::getTime() {
     time_t rawTime;
     struct tm *timeInfo;
     char buffer[80];
@@ -39,7 +23,14 @@ string Log::getTime() {
     return currentTime;
 }
 
-void Log::print(data data)
+void Log::print(Level level, string message)
 {
-    std::cout << getTime() + "  " + getLevel(data.level) + ": " + data.message << std::endl;
+    auto now = std::chrono::system_clock::now();
+    std::time_t end_time = std::chrono::system_clock::to_time_t(now);
+
+    std::string nomequalquer(std::ctime(&end_time));
+
+    nomequalquer.erase(std::remove(nomequalquer.begin(), nomequalquer.end(), '\n'), nomequalquer.end());
+
+    std::cout << nomequalquer << "  " << level.color << level.label << color::DEFAULT << ": " << message << std::endl;
 }
